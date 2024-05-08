@@ -52,7 +52,7 @@ return (
           </div>
                 ))}
               </div>
-              <a href='./src/assets/Document 1.pdf' download>
+              <a href='./src/assets/PREETI SINGH.pdf' download>
                 <button className="btn1">Download CV</button>
               </a>
             <br />

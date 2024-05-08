@@ -83,7 +83,7 @@ function Banner() {
       className='btn-box flex max-w-max gap-x-6 items-center mb-4 lg:mb-8 mx-auto lg:mx-0 text-black dark:text-white'
       >
      
-       <a href="./src/assets/PREETI Singh.pdf'" className="btn1 d-CV" download>
+       <a href="./src/assets/PREETI SINGH.pdf'" className="btn1 d-CV" download>
       Download CV
        </a>
        <a href="#contact" className=" btn1 ">
@@ -117,7 +117,7 @@ function Banner() {
  <div className='home_scroll flex items-center justify-center  dark:text-white text-black'>
 <a href="#about" className='home_scroll_button'>
 <CiSaveDown1 className='lg:text-[40px] text-[40px] dark:text-white' />
-</a>Scroll Down</div>
+</a>Down</div>
   </div>
 
   </section>;
