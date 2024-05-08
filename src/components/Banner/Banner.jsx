@@ -9,7 +9,7 @@ import { fadeIn } from '../Varients';
 import { CiSaveDown1 } from "react-icons/ci";
 import "./Banner.css";
 import "../../index.css";
-import AnimatedBg from '../Animatedbg/AnimatedBg';
+import resume from './PREETI SINGH.pdf';
 
 
 function Banner() {
@@ -83,7 +83,7 @@ function Banner() {
       className='btn-box flex max-w-max gap-x-6 items-center mb-4 lg:mb-8 mx-auto lg:mx-0 text-black dark:text-white'
       >
      
-       <a href="./src/assets/PREETI SINGH.pdf'" className="btn1 d-CV" download>
+       <a href={resume} className="btn1 d-CV" download>
       Download CV
        </a>
        <a href="#contact" className=" btn1 ">

@@ -82,7 +82,7 @@ function Contact() {
         initial='hidden'
         whileInView={'show'}
         viewport={{once: false, amount: 0.9}}
-      className='section-title main-text text-center mx-auto text-2xl lg:text-4xl text-bold border-b-4 w-32 lg:w-52 rounded-sm border-[var(--main-color)]'>
+      className='section-title main-text text-center mx-auto text-xl lg:text-4xl text-bold border-b-4 w-32 lg:w-52 rounded-sm border-[var(--main-color)]'>
          Message Me
       </motion.div>
       </div>
@@ -99,7 +99,7 @@ function Contact() {
        <input name="message"  placeholder='Write Your Query Here' className='p-2 w-full  font-bold text-black ' required />
        </div>
        <div className=''>
-       <button type='submit' className='btn1 mt-6 mx-14 md:mx-40  lg:mx-72' >Send Message</button>
+       <button type='submit' className='btn1 mt-6 mx-16 md:mx-40  lg:mx-72' >Send Message</button>
        </div>
        </div>
     </form>
