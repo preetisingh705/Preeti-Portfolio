@@ -13,6 +13,7 @@ import fr from "../Project/fr.png";
 import sn from "../Project/sn.png";
 import tl from "../Project/tl.png";
 import wa from "../Project/wa.png";
+import pp from "../Project/pp.png";
 
 import { HiEye } from "react-icons/hi2";
 import {motion} from 'framer-motion';
@@ -124,7 +125,13 @@ const data = [
 
   // React Projects
 
-  
+  {
+    title:"Preeti's Portfolio",
+    img:pp,
+    git:"https://github.com/preetisingh705/Preeti-Portfolio",
+    category:"React",
+    live:"https://preeti-portfolio-seven.vercel.app/"
+  },
  
   {
     title:"Todo List",
