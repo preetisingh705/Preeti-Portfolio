@@ -66,7 +66,7 @@ function Work() {
       <img src={d.img} className='lg:h-40 h-32 w-full block rounded-sm'/>
     <div className="layer lg:py-0 lg:px-10">
         <h5 className='lg:mt-8 mt-4 text-black text-16  lg:text-20 lg:mb-6 mb-2'>{d.title}</h5>
-        <div className='lg:ml-14 ml-6 flex flex-row lg:gap-8 gap-2'> 
+        <div className='lg:ml-14 ml-8 flex flex-row lg:gap-8 gap-2'> 
         <a href={d.git} className="eye cursor-pointer text-6 lg:text-10 flex items-center justify-center  h-10 w-10 rounded-full bg-white"><FaCode/></a>
         <a href={d.live} className="eye cursor-pointer text-6 lg:text-10 flex items-center justify-center h-10 w-10 rounded-full bg-white"><HiEye /></a>
        </div>
@@ -138,7 +138,7 @@ const data = [
     img:tl,
     git:"https://github.com/preetisingh705/To-Do-List",
     category:"React",
-    live:"https://to-list-yux5d8r32-preetisingh705s-projects.vercel.app/"
+    live:"https://to-list-ruddy.vercel.app/"
   },
   
  
@@ -147,7 +147,7 @@ const data = [
     img:wa,
     git:"https://github.com/preetisingh705/Weather-App",
     category:"React",
-    live:"https://weather-eiwvnc9pe-preetisingh705s-projects.vercel.app/"
+    live:"https://weather-app-beryl-five-60.vercel.app/"
   },
 
   // html Projcets
