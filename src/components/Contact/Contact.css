@@ -1,0 +1,15 @@
+
+.box{
+
+        background: var(--gradient-color-bg);
+        color: #fff;
+        padding: 8px;
+        font-weight: 500;
+        transition: all .3s ease;
+      
+}
+
+.box:hover{
+        box-shadow: var(--hover-box-shadow);
+    }
+

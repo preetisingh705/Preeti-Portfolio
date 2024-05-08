@@ -1,0 +1,19 @@
+.skills-card{
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    text-align: center;
+    backdrop-filter: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.skills-card:hover,
+.skills-card.active{
+    background: var(--main-color);
+}
+
+
+
+
+
+  

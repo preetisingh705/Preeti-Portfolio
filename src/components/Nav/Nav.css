@@ -1,0 +1,13 @@
+
+
+.gradient,
+.active {
+  background: var(--gradient-color-bg);
+
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}

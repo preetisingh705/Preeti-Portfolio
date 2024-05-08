@@ -1,0 +1,97 @@
+.skills-info-card{
+    border-radius: 0.65rem;
+    border: 1.5px solid #6751b9;
+    background:  var(--gradient-white-bg);
+    backdrop-filter: blur(1rem);
+}
+
+.skills-info-card h6 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    background:linear-gradient(180deg, #ac96ff 0% #7c5fe6 100%);;
+    background-clip:text ;
+    border-bottom: 1.5px solid #6751b9; 
+}
+
+.skills-info-content{
+    
+    padding: 1rem;
+}
+
+.skills-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-info p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.skills-info .percentage {
+    color: #dd8cfa;
+}
+
+.skill-progress-bg {
+    width: 100%;
+    height: 0.5rem;
+    background: #382e68;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    overflow: hidden;
+}
+
+.skill-progress {
+    width: 0%;
+    height: 0.5rem;
+    background: black;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.skill-box{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer{
+   
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner{
+    
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05) ;
+}
+
+circle{
+    fill: none;
+    stroke-width: 18px;
+    stroke: url(#GradientColor);
+}
+
+.svg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.number{
+    color: #555;
+}
+
+
