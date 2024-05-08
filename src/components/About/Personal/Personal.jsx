@@ -36,7 +36,7 @@ return (
 <div className='text-center xl:text-left '>
         <p className='text-48  text-black font-bold mt-2 dark:text-white'>Preeti Singh</p>
         <p className='text-16 text-black font-bold  dark:text-white mx-auto xl:mx-0'>Frontend Developer</p>
-        <p className='text-black text-base mx-auto xl:mx-0 mt-2 dark:text-white'>I'm Preeti , a Passionate Student Pursuing a Bachelor of 
+        <p className='text-black text-base mx-auto xl:mx-0 mt-2 dark:text-white'>I'm Preeti , A Passionate Student Pursuing a Bachelor of 
         Technology (B.Tech) Degree in Information Technology from Dr. AITD Kanpur. I have Huge Interest in Exploring the 
         Engrossing World Of Technology and Its Applications.
         <br />
@@ -54,15 +54,15 @@ return (
                 ))}
               </div>
               <a href={resume} download>
-                <button className="btn1">Download CV</button>
+                <button className="btn1 text-md lg:text-xl">Download CV</button>
               </a>
             <br />
 
         {/* language */}
         <div >
-          <div className='text-[var(--main-color)] text-center'>Language Skill</div>
+          <div className='text-[var(--main-color)] text-center mt-2'>Language Skill</div>
           <div className='border-b border-border'></div>
-          <div className='text-black text-center dark:text-white'>English, Hindi </div>
+          <div className='text-black text-center dark:text-white '>English, Hindi </div>
         </div>
       </div>
 

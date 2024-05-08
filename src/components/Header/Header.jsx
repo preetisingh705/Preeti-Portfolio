@@ -28,7 +28,7 @@ useEffect(() => {
 
 
 
-  return <header className='header  lg:p-4 w-full fixed overflow-hidden dark:bg-none '>
+  return <header className='header  lg:p-4 w-full fixed overflow-hidden  dark:bg-none z-50 '>
 
       <div className='flex justify-between '>
 

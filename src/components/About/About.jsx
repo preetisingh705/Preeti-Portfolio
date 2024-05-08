@@ -32,8 +32,8 @@ function About() {
        className="about-img relative">
             <img src={Hero} alt="" className="aboutHero w-[32vw] h-auto "  />
             <div class="showcase-ring">
-                <img src={Ring} className="Ring" />
-                <img src={circle} className="Circle" />
+                <img src={Ring} className="Ring " />
+                {/* <img src={circle} className="Circle" /> */}
             </div>
         </motion.div>
 
