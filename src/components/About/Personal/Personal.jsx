@@ -1,5 +1,6 @@
 import '../../../index.css';
 import {User2 , MailIcon, HomeIcon, PhoneCall , GraduationCap, Calendar, Briefcase} from 'lucide-react';
+import resume from "./PREETI SINGH.pdf";
 
 const infoData = [
     {
@@ -52,7 +53,7 @@ return (
           </div>
                 ))}
               </div>
-              <a href='./src/assets/PREETI SINGH.pdf' download>
+              <a href={resume} download>
                 <button className="btn1">Download CV</button>
               </a>
             <br />
