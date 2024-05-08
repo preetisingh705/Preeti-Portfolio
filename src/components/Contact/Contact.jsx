@@ -44,7 +44,7 @@ function Contact() {
       <article className='box  rounded-xl text-center w-[160px] lg:w-[250px] '>
         <MailIcon className='mx-14 md:mx-16 lg:mx-24' />
         <h4>Gmail</h4>
-          <h5 className="text-[12px] lg:text-[18px]">preetisingh790584@gmail.com</h5>
+          <h5 className="text-[8px] lg:text-[18px]">preetisingh790584@gmail.com</h5>
           <a href="mailto:preetisingh790584@gmail.com">Send</a>
       </article>
 
@@ -88,18 +88,18 @@ function Contact() {
       </div>
 
     <form method='POST' action='https://formspree.io/f/xvoedrgy' target='blank' >
-      <div className='lg:mb-8  mt-2'>
+      <div className='lg:mb-8  mt-4'>
       <div className='items-center justify-center mx-6 px-4 lg:px-8 border-b-2 border-black-900 '>
        <input type="text" name='name' placeholder='Your Name'className='p-2  w-full font-bold text-black w-full' required />
        </div>
-       <div className='items-center justify-center mx-6 px-4 lg:px-8 mt-2 lg:mt-8 border-b-2 border-black-900'>
+       <div className='items-center justify-center mx-6 px-4 lg:px-8 mt-4 lg:mt-8 border-b-2 border-black-900'>
        <input type="email" name='email' placeholder='Your Email'  className='p-2  w-full font-bold text-black'required />
        </div>
        <div className='items-center justify-center px-4 lg:px-8 mt-4 lg:mt-8 border-black-900 border-b-2  mx-6'>
        <input name="message"  placeholder='Write Your Query Here' className='p-2 w-full  font-bold text-black ' required />
        </div>
        <div className=''>
-       <button type='submit' className='btn1 mt-6 mx-16 md:mx-40  lg:mx-72' >Send Message</button>
+       <button type='submit' className='btn1 mt-6 mx-14 md:mx-40  lg:mx-72' >Send Message</button>
        </div>
        </div>
     </form>

@@ -92,10 +92,10 @@ function Education(){
                     Dr. AITD Kanpur
                       </p>
                       <p className='text-black text-lg leading-2 text-muted-foreground'>
-                      Bachelor of Technology
+                      B.Tech in IT
                       </p>
                       <p className='text-black text-lg leading-2 text-muted-foreground mb-2'>
-                      8.33 CGPA
+                      8.68 SGPA
                       </p>
               </div>
               </div>
