@@ -72,8 +72,8 @@ function Banner() {
     initial='hidden'
     whileInView={'show'}
     viewport={{once: false, amount: 0.5}} 
-    className="home_description mb-2  lg:mb-6 max-w-lg mx-auto lg:mx-0 text-black dark:text-white leading-[22px]">
-      I am very passionate and dedicated to doing work . I constantly Driven to enhance my Skills. </motion.p>
+    className="home_description mb-2  lg:mb-6 max-w-lg mx-auto lg:mx-0 text-black dark:text-white leading-[22px] lg:leading-10">
+      I am very passionate and dedicated to doing work . I constantly driven to enhance my Skills. </motion.p>
 
       <motion.div
       variants={fadeIn('up',0.6)}
