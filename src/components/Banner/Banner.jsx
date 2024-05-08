@@ -49,7 +49,7 @@ function Banner() {
         initial='hidden'
         whileInView={'show'}
         viewport={{once: false, amount: 0.7}}
-        className=' text-[25px] lg:text-[50px] font-secondary font-semibold uppercase leading-none lg:leading-[1] text-black dark:text-white'>
+        className=' text-[25px] mb-2 lg:text-[50px] font-secondary font-semibold uppercase leading-none lg:leading-[1] text-black dark:text-white'>
     <span className="home_subtitle mr-4 ">I am a</span>
     <TypeAnimation
      sequence={[
@@ -72,7 +72,7 @@ function Banner() {
     initial='hidden'
     whileInView={'show'}
     viewport={{once: false, amount: 0.5}} 
-    className="home_description mb-2  lg:mb-6 max-w-lg mx-auto lg:mx-0 text-black dark:text-white leading-[22px] lg:leading-10">
+    className="home_description mb-2  lg:mb-6 max-w-lg mx-auto lg:mx-0 text-black dark:text-white leading-10">
       I am very passionate and dedicated to doing work . I constantly driven to enhance my Skills. </motion.p>
 
       <motion.div
