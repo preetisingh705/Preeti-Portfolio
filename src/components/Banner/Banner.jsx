@@ -83,7 +83,7 @@ function Banner() {
       className='btn-box flex max-w-max gap-x-6 items-center mb-4 lg:mb-8 mx-auto lg:mx-0 text-black dark:text-white'
       >
      
-       <a href="./src/assets/Document 1.pdf'" className="btn1 d-CV" download>
+       <a href="./src/assets/PREETI Singh.pdf'" className="btn1 d-CV" download>
       Download CV
        </a>
        <a href="#contact" className=" btn1 ">
