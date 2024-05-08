@@ -9,25 +9,71 @@ import Work from './components/Project/Work';
 import Contact from './components/Contact/Contact';
 import Cursur from './components/Cursor/Cursur';
 import ScollTop from './components/ScrollTop/ScollTop';
+import Error from './components/Error/Error';
+import { RouterProvider, createBrowserRouter ,Outlet } from 'react-router-dom'; // Import RouterProvider and createBrowserRouter
 
 
-function App() {
+
+const App = () => {
+  
   
   return ( 
    <div className='dark:bg-black bg-white bg-no-repeat overflow-hidden '>
       <Nav />
+      <Cursur />
+      <ScollTop />
+      <Outlet/>
+
       <Header />
       <Banner />
       <About />
       <Work />
       <Services />
       <Contact />
-      <ScollTop />
-      <Cursur />
 
-      {/* <div className='h-[1000px]'></div> */}
    </div>
   );
 };
+const appRouter = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      
+      {
+        path: '/home',
+        element: <Header />
+      },
+      {
+        path: '/banner',
+        element: <Banner />
+      },
+      {
+        path: '/about',
+        element: <About/>
+      },
+      {
+        path: '/work',
+        element: <Work />
+      },
+      {
+        path: '/services',
+        element: <Services />
+      },
+      {
+        path: '/Contact',
+        element: <Contact />
+      }
+    ],
+    errorElement: <Error />
+  }
+]);
+const Root = () => {
+  return (
+    <RouterProvider router={appRouter}>
+      <App />
+    </RouterProvider>
+  );
+};
 
-export default App;
+export default Root; 
