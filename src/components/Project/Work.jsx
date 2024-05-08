@@ -111,15 +111,7 @@ const data = [
     category:"JS",
     live:"https://preetisingh705.github.io/Weather-Forecasting.github.io/"
   },
-  // {
-  //   title:"Meme-Generator",
-  //   img:meme,
-  //   git:"https://github.com/KhushbuY123/Meme-Generator.github.io",
-  //   category:"JS",
-  //   live:"https://khushbuy123.github.io/Meme-Generator.github.io/"
-  // },
-
-  // Python Projectts
+ 
 
   {
     title: "Facial Recognition",
@@ -132,20 +124,14 @@ const data = [
 
   // React Projects
 
-  // {
-  //   title: "Wheather-App",
-  // //   img:w,
-  //   git:"https://github.com/KhushbuY123/Weather-App",
-  //   category:"React",
-  //   live:'https://66103f7326d1152c3507c9d4--astounding-bonbon-e01225.netlify.app/'
-  // },
+  
  
   {
     title:"Todo List",
     img:tl,
     git:"https://github.com/preetisingh705/To-Do-List",
     category:"React",
-    live:"https://github.com/preetisingh705/To-Do-List"
+    live:"https://to-list-yux5d8r32-preetisingh705s-projects.vercel.app/"
   },
   
  
@@ -154,7 +140,7 @@ const data = [
     img:wa,
     git:"https://github.com/preetisingh705/Weather-App",
     category:"React",
-    live:"https://github.com/preetisingh705/Weather-App"
+    live:"https://weather-eiwvnc9pe-preetisingh705s-projects.vercel.app/"
   },
 
   // html Projcets

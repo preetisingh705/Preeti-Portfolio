@@ -31,19 +31,11 @@ export default {
         "medium": '#293245',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/about.png')",
-        elon: "url('./assets/elon.jpg')",
-        Logo: "url('./assets/Logo.png')",
-        Moon: "url('./assets/moon.svg')",
-        Sun: "url('./assets/sun.svg')",
-        Gradient: "url('./assets/Gradient.svg')",
-        Hero:"url('./assets/img/aboutMe.png')",
+       
         Ring: "url('./assets/shapes/ring.png')",
         circle: "url('./assets/shapes/circle.png')",
         Half:"url('./assets/shapes/half-ring.png')",
         second:"url('./assets/shapes/second-circle.png')",
-        p1: "url('./assets/img/portfolio/1.jpg')",
       },
       
     },
