@@ -31,10 +31,7 @@ function About() {
         viewport={{once: false, amount: 0.5}}
        className="about-img relative">
             <img src={Hero} alt="" className="aboutHero w-[32vw] h-auto "  />
-            <div class="showcase-ring">
-                <img src={Ring} className="Ring " />
-                {/* <img src={circle} className="Circle" /> */}
-            </div>
+           
         </motion.div>
 
         <motion.div 

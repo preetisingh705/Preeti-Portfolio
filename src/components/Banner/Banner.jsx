@@ -57,7 +57,7 @@ function Banner() {
       2000,
       'Designer',
       2000,
-      'Youtuber',
+      'Student',
       2000,
      ]}
      speed={50}
@@ -84,9 +84,9 @@ function Banner() {
       >
      
        <a href={resume} className="btn1 d-CV" download>
-      Download CV
+      Resume
        </a>
-       <a href="#contact" className=" btn1 ">
+       <a  href="mailto:preetisingh790584@gmail.com" className=" btn1 ">
       Hire Me
        </a>
       </motion.div>
@@ -100,7 +100,8 @@ function Banner() {
         <div className='bg-icon'>
         <a href="https://www.linkedin.com/in/preeti-singh-764190258/"><FaLinkedin className='text-black dark:text-black' /></a>
          <span></span>
-        </div><div className='bg-icon'>
+        </div>
+        <div className='bg-icon'>
         <a href="https://t.me/+917905845454"><FaTelegram  className='text-black dark:text-black ' /></a>
          <span></span>
         </div><div className='bg-icon'>

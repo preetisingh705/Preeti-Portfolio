@@ -62,26 +62,7 @@
   right: 1%;
 }
 
-.about-img .Circle{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-@media screen and (max-width:480px){
-  .about-img .Ring{
-    position: absolute;
-    top: 10%;
-    right: -40%;
-    size: -5px;
-  }
-  
-  .about-img .Circle{
-    position: absolute;
-    top: -30%;
-    left: -40%;
-    size: -20px;
-  }
-}
+
 
 a{
   text-decoration: none;

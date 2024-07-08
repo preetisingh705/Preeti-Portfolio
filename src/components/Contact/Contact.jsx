@@ -3,7 +3,9 @@ import {MailIcon, HomeIcon,MessageCircle} from 'lucide-react';
 import "./Contact.css";
 import {motion} from 'framer-motion';
 import { fadeIn } from '../Varients';
-import { FaWhatsapp } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { MdAddIcCall } from "react-icons/md";
+import "../../index.css";
 
 
 function Contact() {
@@ -45,7 +47,7 @@ function Contact() {
         <MailIcon className='mx-14 md:mx-16 lg:mx-24' />
         <h4>Gmail</h4>
           <h5 className="text-[8px] lg:text-[18px]">preetisingh790584@gmail.com</h5>
-          <a href="mailto:preetisingh790584@gmail.com">Send</a>
+          <a href="mailto:preetisingh790584@gmail.com"><FaTelegram  className='text-white text-[25px] dark:text-black mx-12 md:mx-16 lg:mx-24' /></a>
       </article>
 
 
@@ -59,10 +61,10 @@ function Contact() {
 
       <article className='box p-1 rounded-xl text-center lg:w-[250px]'>
         <MessageCircle  className='mx-12 md:mx-16 lg:mx-24 '/>
-          <h4>Whatsapp</h4>
-          <h5>+917905845454</h5>
-          <a href="https://wa.me/7905845454">Connect Me</a>
+          <h4> Contact Me</h4>
+          <a href="tel:+917905845454"> <MdAddIcCall className='text-white text-[25px] dark:text-black mx-12 md:mx-16 lg:mx-24' /> </a>
       </article>
+
     </motion.div>
     </div>
 
